@@ -11,6 +11,6 @@ btn.addEventListener("click", function () {
 });
 
 document.addEventListener("keydown", function (e) {
-  if (e.key == "Escape" && flag) box();
+  if (e.key == "Escape" && open) box();
   // console.log(e.key);
 });
